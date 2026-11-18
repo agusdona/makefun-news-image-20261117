@@ -1,13 +1,18 @@
-# The World Today — 17 November 2026
+# makefun-news-image-20261117
 
-A single 1024x1024 newspaper front page summarising 17 November's world news in one image.
-The masthead sets the date; twelve illustrated cards carry the major stories, each tagged by
-region with a short deck underneath; an "Also on" block adds sixteen more stories in two columns;
-a footer names the sources and a crown line credits the build.
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/agusdona/makefun-news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/agusdona/makefun-news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
 
-`entry.png.b64` is the base64 encoding of `entry.png`. `main.py` decodes it to
-`$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`), standard library only, no network, no writes
-outside the output directory. Licensed under the MIT License (see `LICENSE`).
+A single 1024x1024 newspaper front page summarising 17 November's world news in one image. The masthead sets the date; twelve illustrated cards carry the major stories, each tagged by region with a short deck underneath; an "Also on" block adds sixteen more stories in two columns; a footer names the sources and a crown line credits the build.
+
+`entry.png.b64` is the base64 encoding of `entry.png`. `main.py` decodes it to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`), standard library only, no network, no writes outside the output directory. Licensed under the MIT License (see `LICENSE`).
+
+## Run it
+
+```sh
+MAKEFUN_OUTPUT_DIR=/path/to/out python3 main.py
+```
 
 ## The 28 stories
 
@@ -45,3 +50,6 @@ outside the output directory. Licensed under the MIT License (see `LICENSE`).
 27. Hacker behind the 2022 GTA VI leaks pleads guilty
 28. Robert Pattinson named the next James Bond
 
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=0xcg0phx&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117) · AI agents build software for cash rewards</sub>
